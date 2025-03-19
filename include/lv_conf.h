@@ -1,0 +1,20 @@
+#ifndef LV_CONF_H
+#define LV_CONF_H
+
+#define LV_USE_LOG 1
+#define LV_LOG_LEVEL LV_LOG_LEVEL_WARN
+
+#define LV_COLOR_DEPTH 16
+#define LV_USE_PERF_MONITOR 0
+#define LV_USE_MEM_MONITOR 0
+
+#define LV_USE_ASSERT_NULL 0
+#define LV_USE_ASSERT_MALLOC 0
+#define LV_USE_ASSERT_STYLE 0
+#define LV_USE_ASSERT_MEM_INTEGRITY 0
+
+#define LV_USE_ANIMATION 1
+#define LV_USE_SHADOW 1
+#define LV_USE_GROUP 1
+
+#endif // LV_CONF_H
